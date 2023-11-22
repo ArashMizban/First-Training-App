@@ -1,5 +1,6 @@
 package com.example.retrofit
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
@@ -14,10 +15,12 @@ import java.util.zip.Inflater
 class MoviesAdapter : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
 
     private lateinit var binding: ItemMoviesBinding
+    private lateinit var context : Context
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MoviesAdapter.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
     binding = ItemMoviesBinding.inflate(inflater , parent , false)
+        context = parent.context
         return ViewHolder()
     }
 
