@@ -1,0 +1,10 @@
+<resources>
+    <style
+        name="Base.Theme.s1_navigation" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style>
+
+    <style
+
+        name="Theme.s1.navigation" parent="Base.Theme.s1_navigation"/>
+
+</resources>

@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Room"
 include ':app'
 include ':app:retrofit'
+include ':app:s1-navigation'

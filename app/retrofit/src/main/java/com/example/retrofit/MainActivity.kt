@@ -59,7 +59,6 @@ class MainActivity : AppCompatActivity() {
                     moviesLoader.visibility = View.GONE
                     Log.e("OnFailure" , "Error : ${t.message}")
                 }
-
             })
         }
     }

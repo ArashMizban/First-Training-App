@@ -2,4 +2,5 @@
     <string name="app_name">Room</string>
     <string name="empty_text">Empty Text</string>
     <string name="insert_floating">insert_floating</string>
+    <string name="title_dynamicfeature">Module Title</string>
 </resources>
